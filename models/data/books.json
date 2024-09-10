@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "genre": "Fiction",
+    "publicationYear": "1925",
+    "imageUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn4.libris.ro%2Fimg%2Fpozeprod%2F24837%2F24836952-1.jpg&tbnid=u3kKt4ofWSFj8M&vet=10CAIQxiAoAGoXChMIuILxqfGziAMVAAAAAB0AAAAAEA8..i&imgrefurl=https%3A%2F%2Fwww.libris.ro%2Fthe-great-gatsby-f-scott-fitzgerald-BRT9781951570323--p24836952.html&docid=UTPf9Ztqz6TbCM&w=263&h=400&itg=1&q=great%20gatsby&ved=0CAIQxiAoAGoXChMIuILxqfGziAMVAAAAAB0AAAAAEA8",
+    "ISBN": "9780743273565",
+    "description": "A novel set in the Roaring Twenties."
+  },
+  {
+    "id": 2,
+    "title": "It Ends With Us",
+    "author": "Colleen Hoover",
+    "genre": "Romance",
+    "publicationYear": "2016",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxrjc_-TRHnOdQjZhWD_vzeDWXSrv8ZV_nIQ&s",
+    "ISBN": "978-1501110368",
+    "description": "A powerful and emotional novel about love, resilience, and the challenges of relationships, focusing on the complexities of domestic abuse and its impact on personal growth."
+  }
+]
