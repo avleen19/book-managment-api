@@ -1,6 +1,6 @@
 const { readBooksFromFile, writeBooksToFile, isUniqueISBN } = require('../models/bookModel');
 
-let nextId = 1; // This should be managed more persistently in a real-world scenario
+let nextId = 1; 
 
 // Create a new book
 exports.createBook = (req, res) => {
@@ -31,7 +31,7 @@ exports.createBook = (req, res) => {
     return res.status(201).json(newBook);
 };
 
-// Retrieve all books with optional filtering, pagination
+
 exports.getAllBooks = (req, res) => {
     const { genre, author, publicationYear, page = 1, limit = 10 } = req.query;
 
@@ -74,7 +74,6 @@ exports.getBookById = (req, res) => {
 };
 
 
-// Update a book by ID
 exports.updateBook = (req, res) => {
     const books = readBooksFromFile(); // Read from file
     const book = books.find(b => b.id === parseInt(req.params.id));
@@ -112,8 +111,6 @@ exports.deleteBook = (req, res) => {
     return res.status(204).send();
 };
 
-// Search for books by title, author, or ISBN
-// Search for books by title, author, or ISBN
 exports.searchBooks = (req, res) => {
     const { title, author, ISBN } = req.query;
     const books = readBooksFromFile(); // Ensure this reads the correct data
