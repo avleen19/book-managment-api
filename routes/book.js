@@ -4,7 +4,7 @@ const bookController = require('../controllers/bookController');
 const basicAuth = require('../middlewares/authmiddleware');
 
 // Public routes
-router.get('/search', bookController.searchBooks); // Move this above the dynamic /:id route
+router.get('/search', bookController.searchBooks); 
 router.get('/', bookController.getAllBooks);
 router.get('/:id', bookController.getBookById);
 
